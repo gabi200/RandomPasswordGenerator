@@ -5,8 +5,8 @@ number = random.randint(36,861)
 symbols = ["!","?","@","#","&","€","_","*","^"]
 bar = "-" * 32
 
-r = random.randint(0,7)
-r1 = random.randint(0,6)
+r = random.randint(0,11)
+r1 = random.randint(0,8)
 r2 = random.randint(1,3)
 
 if r in [0,1,2,3,4,5,6,7,8,9,10,11]:
