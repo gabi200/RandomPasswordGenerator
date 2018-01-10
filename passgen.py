@@ -2,6 +2,7 @@ import os,random
 
 words = ["cat","me","game","dog","Lol","haha","xD","x","super","royale","python","boom"]
 number = random.randint(36,861)
+number1 = random.randint(56,483)
 symbols = ["!","?","@","#","&","€","_","*","^"]
 bar = "-" * 32
 
@@ -19,9 +20,9 @@ if r2 == 1:
 if r2 == 2:
 	password = str(number) + rs + rw + rs
 if r2 == 3:
-	password = rs + str(number) + rw + str(number)
+	password = rs + str(number) + rw + str(number1)
 if r2 == 4:
-	password = rw + str(number) + rs + str(number)
+	password = rw + str(number1) + rs + str(number)
 
 print("Random Password Generator v1.0.2")
 print("by gabi200")
