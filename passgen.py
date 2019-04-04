@@ -4,7 +4,7 @@ import os
 import random
 
 words = ["cat","me","game","dog","Lol","haha","xD","x","super","royale","python","boom","math","best","riptide","loopy"]
-symbols = ["!","?","@","#","&","€","_","*","^","$","\\"] 
+symbols = ["!","?","@","#","&","€","_","*","^","$","\\","☼","♀"] 
 bar = "-" * 32
 
 def again():
